@@ -1,4 +1,4 @@
-# python_code
+# jupyter set up with github, python
 
 IMPORTANT STEPS TO SET WORKING ENVIRONMENT
 
