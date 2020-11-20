@@ -14,4 +14,6 @@ jupyter lab build
 
 3.UI Settings
   to do that connect to jupyter lab
-  
+  run the following command to install git with jupyterlab
+  pip install jupyterlab-git
+  GitPython-3.1.11
