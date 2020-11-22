@@ -107,14 +107,15 @@ To continuously monitor the project for changes and automatically trigger a rebu
 
 And in a separate session, begin watching the source directory for changes:
 
-    jlpm run watch
-
+    jlpm run watch 
+    
 Now every change will be built locally and bundled into JupyterLab. Be sure to refresh your browser page after saving file changes to reload the extension (note: you'll need to wait for webpack to finish, which can take 10s+ at times).
 
 To execute the tests
 
     pytest jupyterlab_git
     jlpm run test
+   by running the above command we get to know the exact errors.
 
 IN CASE IF YOU DO NOT PROPERLY CONFIGURE SERVER SETTINGS YOU SEE THE BELOW ERROR. when you reload the page you see the below error.
 Failed to load the jupyterlab-git server extension :
