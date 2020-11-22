@@ -116,19 +116,14 @@ To execute the tests
     pytest jupyterlab_git
     jlpm run test
 
-IN CASE YOU IF YOU DO NOT PROPERLY CONFIGURE SERVER SETTINGS YOU SEE THE BELOW ERROR.
+IN CASE IF YOU DO NOT PROPERLY CONFIGURE SERVER SETTINGS YOU SEE THE BELOW ERROR. when you reload the page you see the below error.
 Failed to load the jupyterlab-git server extension :
     Git server extension is unavailable. Please ensure you have installed the JupyterLab Git server extension 
-    by running: pip install --upgrade jupyterlab-git. To confirm that the server extension is installed, run: jupyter serverextension list.
+    by running: pip install --upgrade jupyterlab-git.  To confirm that the server extension is installed, run: jupyter serverextension list.
     
-
-I'm experiencing the same kind of symptoms, on a docker image built on top of the latest scipy-notebook image from docker-stacks (i.e. my Dockerfile has FROM jupyter/scipy-notebook:latest)
-
-I believe I have everything in place, as the image runs
-
-pip install -U jupyterlab jupyterlab-git
-jupyter labextension install @jupyterlab/git
-jupyter serverextension enable --py jupyterlab_git
+    pip install -U jupyterlab jupyterlab-git
+    jupyter labextension install @jupyterlab/git
+    jupyter serverextension enable --py jupyterlab_git
 
 also a runtime check exhibits this
 
@@ -142,6 +137,6 @@ also a runtime check exhibits this
 
     pip show jupyterlab-git
 
-
+    sudo -E conda install jupyterlab-git -c conda-forge
 
 
