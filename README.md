@@ -142,11 +142,15 @@ also a runtime check exhibits this
 
 
 #Install pycharm in linux ubuntu
-  tar xzf pycharm-*.tar.gz -C <new_archive_folder>
+  
+    tar xzf pycharm-*.tar.gz -C <new_archive_folder>
 #i moved my pycharm into the new directory so that we can access easily.
-  tar xzf pycharm2020-*.tar.gz -C /opt/
+
+    tar xzf pycharm2020-*.tar.gz -C /opt/
 #Navigate into directory where you moved. move to linux file system path "ops"
-  cd <new archive folder>/pycharm-*/bin
-  cd /opt/pycharm-*/bin
+
+    cd <new archive folder>/pycharm-*/bin
+    cd /opt/pycharm-*/bin
 #then run the below command to start the pycharm ide.
-  sh pycharm.sh
+        
+    sh pycharm.sh
