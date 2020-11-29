@@ -1,4 +1,4 @@
-# jupyter set up with github, python
+# jupyter, RStudio & pycharm set up with github, do commit, make pull/push requests.
 
 IMPORTANT STEPS TO SET WORKING ENVIRONMENT
 
@@ -154,3 +154,12 @@ also a runtime check exhibits this
 #then run the below command to start the pycharm ide.
         
     sh pycharm.sh
+    
+#configure pycharm with github
+
+    the easy way to do is once you install pycharm ide, go to settins-->preferences--> version control --> add github account
+    then goto file-->open any project which is already cloned any github project. then write your code, on the top right corner find git hub navigation icons to        make commit, push , pull requests. its bit hand if you use new version of pycharm ide 2020 either community/professional edition. thats it. now you successfully configured github to your pycharm ide.
+#install packages in pycharm ide
+  
+    goto settings-->preferences-->project interpreter-->you see some packages listed or else clich on + icon  to see more packages listed, simply search and     install it. that's it . now ou successfully installed your packages to your projects.
+    now you can run the project.
