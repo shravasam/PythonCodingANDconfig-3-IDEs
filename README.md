@@ -165,6 +165,8 @@ also a runtime check exhibits this
     now you can run the project.
 ---------------------------------------------
 
-
+      #python 3.6 context
+      26. Strings
+            
 
 
