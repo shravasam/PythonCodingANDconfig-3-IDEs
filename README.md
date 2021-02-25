@@ -163,3 +163,8 @@ also a runtime check exhibits this
   
     goto settings-->preferences-->project interpreter-->you see some packages listed or else clich on + icon  to see more packages listed, simply search and     install it. that's it . now ou successfully installed your packages to your projects.
     now you can run the project.
+---------------------------------------------
+
+#python 3.6 context
+#27. Strings
+
