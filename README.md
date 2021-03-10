@@ -167,6 +167,7 @@ also a runtime check exhibits this
 
       #python 3.6 context
       26. Strings
+      27. boolean operators in python
             
 
 
