@@ -170,5 +170,26 @@ also a runtime check exhibits this
       27. boolean operators in python
       28. Tuples in python
       29. Sets in python    
+Data types in python :
+1)str
+2)int
+3)float
+4)complex
+5)tuple
+6)set
+7)dict
+8)list
+9)bool
+10)frozenset
+11)bytes
+12)bytesarray
+13)range
+14)memoryview(bytes(5))
 
+Python castings:
+1)int
+2)float
+3)str
+
+Python Strings:
 
