@@ -192,4 +192,18 @@ Python castings:
 3)str
 
 Python Strings:
+1)multiline strings(using 2 double quotes / single quotes), hint : """,'''
+2)strings are arrays 
+3)looping through a string
+4)string length
+5)check string (required string is present in the pharse)
+6)check string using 'if' condition
+7)print string if not present in the given string. hint : IF NOT
 
+python slicing strings:
+1)print characters from 3 position to 6 position
+2)print the character starting from to 5th position
+3)print the character from 3rd position to end of phase
+4)negative indexing
+
+python modify strings:
