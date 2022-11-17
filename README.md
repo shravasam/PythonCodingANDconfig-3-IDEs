@@ -207,3 +207,9 @@ python slicing strings:
 4)negative indexing
 
 python modify strings:
+1)print the one string upper case
+2)print the one string lower case
+3)remove white spaces in the statement
+4)replace another string on existing place\
+5)split strings into sub-strings
+6)concatenating two strings or sentenses and add spaces word to word or sentenses
