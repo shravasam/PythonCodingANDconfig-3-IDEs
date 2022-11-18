@@ -213,3 +213,20 @@ python modify strings:
 4)replace another string on existing place\
 5)split strings into sub-strings
 6)concatenating two strings or sentenses and add spaces word to word or sentenses
+
+python format strings:
+1)add a text and number and print the complete statement.
+2)give indexing like 0,1,2,3 etc and arrange in order of statement
+
+python escape characters:
+1)print a statemnet using blackslash and double quotes
+2)print backslash in the stmt
+3)print in a new line using "\n" and "\r"(carriage return)
+4)print in tab i.e tab of space
+5)print a statement and elimenate one character and concatenate two words using "\b"
+6)print a statement using "\f" like form feed
+
+python built-in methods
+1)print a statement with only starting letter in capital and rest all small letters using "capitalize()" method
+2)print all the characters in lower letter using "casefold()" method.
+3)

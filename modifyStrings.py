@@ -11,3 +11,9 @@ print (d.replace("s", "V"))
 e= "bonjour salut"
 f=e.split(",")
 print(f)
+
+#concatenating strings
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
